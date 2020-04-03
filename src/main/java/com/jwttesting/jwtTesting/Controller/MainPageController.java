@@ -25,7 +25,7 @@ public class MainPageController {
     @GetMapping
     public ResponseEntity<?> getUser(){
 
-        
+        System.out.println("nenadmit");
         SecurityProperties.User user = new SecurityProperties.User();
 
 
